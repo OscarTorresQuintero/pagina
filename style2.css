@@ -1,16 +1,57 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #212529;
 }
 
 header {
-  background-color: #28a745; /* Verde */
+  background: linear-gradient(to right, #2c3e50, #000);
   color: white;
+  padding: 60px 0;
   text-align: center;
-  padding: 40px 20px;
 }
 
-.contenido {
-  padding: 20px;
-  text-align: center;
+.hero img {
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
+
+section {
+  padding: 60px 0;
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn-dark {
+  background-color: #222;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #444;
+}
+
+.bg-light {
+  background-color: #f4f4f4 !important;
+}
+
